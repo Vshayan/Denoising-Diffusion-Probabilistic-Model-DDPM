@@ -1,4 +1,4 @@
-Denoising Diffusion Probabilistic Model (DDPM)
+# Denoising Diffusion Probabilistic Model (DDPM)
 
 An implementation of a Conditional Score-based Diffusion Model using a Transformer-enabled UNet architecture. This project explores the mathematical and visual differences between three major sampling strategies: Stochastic Differential Equations (SDE), Ordinary Differential Equations (ODE), and Denoising Diffusion Implicit Models (DDIM).
 
