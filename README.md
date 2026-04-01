@@ -9,7 +9,7 @@ Unlike standard GANs, this model learns to reverse a diffusion process. It predi
 
 ### Key Features:
 - **Hybrid Architecture:** A UNet backbone integrated with Spatial Self-Attention and Label Cross-Attention (Transformer blocks).
-- **Time Embeddings:** Uses Gaussian Fourier Projections to inject continuous time \( t \) into every layer.
+- **Time Embeddings:** Uses Gaussian Fourier Projections to inject continuous time \(t\) into every layer.
 - **Multi-Sampler Analysis:** Side-by-side comparison of Stochastic (Langevin) vs. Deterministic (Probability Flow) inference.
 
 
@@ -24,7 +24,7 @@ The model uses a "U" shaped encoder-decoder. At the bottleneck and lower resolut
 
 ## Sampler Analysis
 
-The core of this project is the analysis of how we "walk" back to the data manifold.
+The core of this project is the analysis of how we walk back to the data manifold.
 
 ### 1. SDE Sampler (Langevin Dynamics)
 **The Stochastic Approach.** It adds noise back at each step to ensure the model explores the full data distribution.  
