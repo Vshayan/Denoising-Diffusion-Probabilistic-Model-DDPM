@@ -32,7 +32,7 @@ The core of this project is the analysis of how we walk back to the data manifol
 
 ### 2. ODE Sampler (Probability Flow)
 **The Deterministic Approach.** It treats the reverse process as a smooth, non-random trajectory.  
-**Observation:** Highly efficient. However, it is sensitive to model training at \( t \approx 0 \), sometimes leaving a "grainy" texture if the model hasn't fully converged.
+**Observation:** Highly efficient. However, it is sensitive to model training at $t \approx 0$, sometimes leaving a "grainy" texture if the model hasn't fully converged.
 
 ### 3. DDIM Sampler (Implicit Model)
 **The Accelerated Approach.** It predicts the "clean image" ($x_0$) at each step to take larger jumps.  
